@@ -64,7 +64,7 @@ body {
   position: relative;
   background-color: #ffffff;
   background-image:url(https://github.com/satincoffins/Homework_Week1/blob/master/assets/images/whirlpool.png?raw=true);
-
+  min-height: calc(100vh - 70px);
 }
 
 
@@ -113,6 +113,7 @@ p {
   left: 65%;
   border: 3px inset #cccccc;
   background-color: #ffffff;
+  height: 225px;
  
 }
 
@@ -164,6 +165,35 @@ li {
   height: 35%;
 }
 
+.containers {
+  margin-left: 35px;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  padding: 15px;
+  border: 3px inset #dddddd;
+}
+
+.box {
+  float: left;
+  border: 3px solid #dddddd;
+  margin: 5px;  
+  width: auto;
+  height: auto;
+}
+
+/*.box:hover {
+  border: 10px inset #464646;
+}*/
+
+h4 {
+  background-color: #4aaaa5;
+  padding: 12px;
+  text-align: center;
+  border: 15px solid #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif; 
+
+}
 
 .input-block-level {
   display: block;
@@ -174,21 +204,26 @@ li {
           box-sizing: border-box;
 }
 
-div.relative {
+
+
+
+
+
+/*div.relative {
+  display: inline-block;
   position: relative;
   float: left;
   margin: 5%;
   margin-top: 5px;
-  width: 45%;
+  width: 15%;
   background-color: #ffffff;
 }
 
-img.relative {
-  height: 50px;
-  width: 50px;
-}
+
 
 div.absolute {
   position: absolute;
+  float: left;
 
-}
+}*/
+
